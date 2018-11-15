@@ -1,0 +1,17 @@
+{
+    "name": "rovast/design-pattern-talk",
+    "description": "大话设计模式 PHP CLI 实现",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rovast",
+            "email": "rovast@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rovast\\DesignPatternTalk\\": "./src"
+        }
+    }
+}
