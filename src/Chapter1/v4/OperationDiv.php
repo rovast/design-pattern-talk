@@ -3,7 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter1\v4;
 
 /**
- * Class OperationDiv
+ * Class OperationDiv.
  */
 class OperationDiv extends Operation
 {
