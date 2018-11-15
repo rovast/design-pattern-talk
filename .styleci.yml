@@ -1,0 +1,7 @@
+preset: symfony
+
+enabled:
+  - align_equals_minimal
+
+disabled:
+  - unalign_equals
