@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter1\v3;
 
 /**
- * Class Operation
- *
- * @package \Rovast\DesignPatternTalk\Chapter1\v3
+ * Class Operation.
  */
 class Operation
 {
@@ -13,30 +11,36 @@ class Operation
      * @param float  $numberA
      * @param float  $numberB
      * @param string $operate
+     *
      * @return float|int|string
+     *
      * @author ROVAST
      */
     public function getResult(float $numberA, float $numberB, string $operate)
     {
         switch ($operate) {
-            case "+":
+            case '+':
                 $result = $numberA + $numberB;
+
                 break;
-            case "-":
+            case '-':
                 $result = $numberA - $numberB;
+
                 break;
-            case "*":
+            case '*':
                 $result = $numberA * $numberB;
+
                 break;
-            case "/":
+            case '/':
                 if (0 === intval($numberB)) {
-                    $result = "除数不能为0";
+                    $result = '除数不能为0';
                 } else {
                     $result = $numberA / $numberB;
                 }
+
                 break;
             default:
-                $result = "请输入正确的运算符号";
+                $result = '请输入正确的运算符号';
         }
 
         return $result;

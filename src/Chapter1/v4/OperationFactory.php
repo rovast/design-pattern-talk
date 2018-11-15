@@ -3,27 +3,31 @@
 namespace Rovast\DesignPatternTalk\Chapter1\v4;
 
 /**
- * Class OperationFactory
+ * Class OperationFactory.
  */
 class OperationFactory
 {
     public static function createOperate(string $operate)
     {
         switch ($operate) {
-            case "+":
+            case '+':
                 $operateClass = new OperationAdd();
+
                 break;
-            case "-":
+            case '-':
                 $operateClass = new OperationSub();
+
                 break;
-            case "*":
+            case '*':
                 $operateClass = new OperationMul();
+
                 break;
-            case "/":
+            case '/':
                 $operateClass = new OperationDiv();
+
                 break;
             default:
-                throw new \Exception("错误的运算类型");
+                throw new \Exception('错误的运算类型');
         }
 
         return $operateClass;

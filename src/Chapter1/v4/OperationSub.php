@@ -3,7 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter1\v4;
 
 /**
- * Class OperationSub
+ * Class OperationSub.
  */
 class OperationSub extends Operation
 {

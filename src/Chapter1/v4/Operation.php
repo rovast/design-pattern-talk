@@ -3,17 +3,17 @@
 namespace Rovast\DesignPatternTalk\Chapter1\v4;
 
 /**
- * Class Operation
+ * Class Operation.
  */
 abstract class Operation
 {
     /**
-     * @var  float numberA
+     * @var float numberA
      */
     private $numberA;
 
     /**
-     * @var  float numberB 
+     * @var float numberB
      */
     private $numberB;
 
@@ -37,5 +37,5 @@ abstract class Operation
         return $this->numberB;
     }
 
-    public abstract function getResult();
+    abstract public function getResult();
 }

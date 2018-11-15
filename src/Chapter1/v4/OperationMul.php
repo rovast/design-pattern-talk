@@ -3,7 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter1\v4;
 
 /**
- * Class OperationMul
+ * Class OperationMul.
  */
 class OperationMul extends Operation
 {
