@@ -1,5 +1,8 @@
 # design-pattern-talk
 
+![StyleCI build status](https://github.styleci.io/repos/157649592/shield) 
+
+
 《大话设计模式》的 PHP CLI 实现
 
 ## 章节
