@@ -1,6 +1,15 @@
 # design-pattern-talk
 
 ![StyleCI build status](https://github.styleci.io/repos/157649592/shield) 
+[![GitHub issues](https://img.shields.io/github/issues/rovast/design-pattern-talk.svg)](https://github.com/rovast/design-pattern-talk/issues)
+[![GitHub forks](https://img.shields.io/github/forks/rovast/design-pattern-talk.svg)](https://github.com/rovast/design-pattern-talk/network)
+[![GitHub stars](https://img.shields.io/github/stars/rovast/design-pattern-talk.svg)](https://github.com/rovast/design-pattern-talk/stargazers)
+[![GitHub license](https://img.shields.io/github/license/rovast/design-pattern-talk.svg)](https://github.com/rovast/design-pattern-talk/blob/master/LICENSE)
+
+
+
+
+
 
 
 《大话设计模式》的 PHP CLI 实现
