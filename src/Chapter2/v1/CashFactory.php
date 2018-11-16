@@ -3,8 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter2\v1;
 
 /**
- * Class CashFactory
- *
+ * Class CashFactory.
  */
 class CashFactory
 {
@@ -13,7 +12,7 @@ class CashFactory
         $map = [
           'normal' => CashNormal::class,
           'rebate' => CashRebate::class,
-          'return' => CashReturn::class
+          'return' => CashReturn::class,
         ];
 
         return $map[strtolower($type)];

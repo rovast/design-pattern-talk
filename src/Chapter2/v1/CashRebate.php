@@ -4,16 +4,14 @@ namespace Rovast\DesignPatternTalk\Chapter2\v1;
 
 /**
  * Class CashRebate
- * 折扣收费
- *
- * @package \Rovast\DesignPatternTalk\Chapter2\v1
+ * 折扣收费.
  */
 class CashRebate extends CashSuper
 {
     /**
-     * 折扣
+     * 折扣.
      *
-     * @var  float rebate
+     * @var float rebate
      */
     private $rebate;
 
