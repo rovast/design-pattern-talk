@@ -19,6 +19,8 @@
 
 - 使用简单工厂模式进行分离业务和界面，更加便于拓展
 
+![UML](https://raw.githubusercontent.com/rovast/rovast-github-assets/master/images/uml_201811062124.jpg)
+
 ## 总结
 
 > v1 v2 是面向过程的编码方式。将客户端「client」和实际的逻辑杂糅在了一起，这种写法虽然来得快，但是在处理后期需求更改时较为吃力。<br>
