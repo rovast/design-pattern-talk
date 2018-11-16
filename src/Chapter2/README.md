@@ -14,6 +14,12 @@
 
 > 使用抽象的 strategy，并且由各个具体的策略类来实现 abstract strategy 的 algorithm。 
 
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/rovast/rovast-github-assets/master/images/uml_2018111602.jpg" 
+  width="600">
+</p>
+
 ### 总结
 
 策略模式就是用来封装算法的，但在实践中，我们发现可以用它来封装几乎任何类型的规则，只要在分析过程中听到需要在不同时间应用不同的业务规则，
