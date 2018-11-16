@@ -19,7 +19,7 @@
 
 - 使用简单工厂模式进行分离业务和界面，更加便于拓展
 
-![UML](https://raw.githubusercontent.com/rovast/rovast-github-assets/master/images/uml_201811062124.jpg)
+<p align="center"><img src="https://raw.githubusercontent.com/rovast/rovast-github-assets/master/images/uml_2018111601.svg"></p>
 
 ## 总结
 
