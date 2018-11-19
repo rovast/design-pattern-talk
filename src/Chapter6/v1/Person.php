@@ -3,12 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter6\v1;
 
 /**
- * Class Person
+ * Class Person.
  */
 class Person
 {
     /**
-     * @var  string name
+     * @var string name
      */
     private $name;
 
@@ -44,6 +44,6 @@ class Person
 
     public function show()
     {
-        print("装扮的 {$this->name}");
+        echo "装扮的 {$this->name}";
     }
 }

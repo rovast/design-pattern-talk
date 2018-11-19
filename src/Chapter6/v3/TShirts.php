@@ -3,7 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter6\v3;
 
 /**
- * Class TShirts
+ * Class TShirts.
  */
 class TShirts extends Finery
 {

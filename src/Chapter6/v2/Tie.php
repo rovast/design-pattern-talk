@@ -3,8 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter6\v2;
 
 /**
- * Class Tie
- *
+ * Class Tie.
  */
 class Tie extends Finery
 {

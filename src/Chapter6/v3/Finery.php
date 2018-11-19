@@ -3,13 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter6\v3;
 
 /**
- * Class Finery
- *
+ * Class Finery.
  */
 abstract class Finery
 {
     /**
-     * @var  \Rovast\DesignPatternTalk\Chapter6\v3\Person component
+     * @var \Rovast\DesignPatternTalk\Chapter6\v3\Person component
      */
     protected $component;
 

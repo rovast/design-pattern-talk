@@ -3,13 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter6\v3;
 
 /**
- * Class Person
- *
+ * Class Person.
  */
 class Person
 {
     /**
-     * @var  string name
+     * @var string name
      */
     private $name;
 

@@ -3,8 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter6\v2;
 
 /**
- * Class BigTrouser
- *
+ * Class BigTrouser.
  */
 class BigTrouser extends Finery
 {
