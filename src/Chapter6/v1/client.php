@@ -2,18 +2,18 @@
 
 require_once __DIR__.'/../../../vendor/autoload.php';
 
-$persion = new \Rovast\DesignPatternTalk\Chapter6\v1\Person('小菜');
+$person = new \Rovast\DesignPatternTalk\Chapter6\v1\Person('小菜');
 
 echo '第一种装扮' . PHP_EOL;
 
-$persion->wearBigTrouser();
-$persion->wearSneakers();
-$persion->wearTie();
-$persion->show();
+$person->wearBigTrouser();
+$person->wearSneakers();
+$person->wearTie();
+$person->show();
 
 echo PHP_EOL . '第二种装扮' . PHP_EOL;
 
-$persion->wearTShirts();
-$persion->wearLeatherShoes();
-$persion->wearSneakers();
-$persion->show();
+$person->wearTShirts();
+$person->wearLeatherShoes();
+$person->wearSneakers();
+$person->show();
