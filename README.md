@@ -7,11 +7,6 @@
 [![GitHub license](https://img.shields.io/github/license/rovast/design-pattern-talk.svg)](https://github.com/rovast/design-pattern-talk/blob/master/LICENSE)
 
 
-
-
-
-
-
 《大话设计模式》的 PHP CLI 实现
 
 ## 章节
@@ -21,7 +16,7 @@
 - [x] Chapter3 拍摄 UFO --- 单一职责原则
 - [x] Chapter4 考研求职两不误 --- 开放-封闭原则
 - [x] Chapter5 会修电脑不会修收音机？ --- 依赖倒转原则
-- [ ] Chapter6 穿什么有那么重要？ --- 装饰器模式
+- [x] Chapter6 穿什么有那么重要？ --- 装饰器模式
 - [ ] Chapter7 为别人做嫁衣 --- 代理模式
 - [ ] Chapter8 雷锋依然在人间 --- 工厂方法模式
 - [ ] Chapter9 简历复印 --- 原型模式
