@@ -3,14 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter7\v2;
 
 /**
- * Class SchoolGirl
- *
- * @package \Rovast\DesignPatternTalk\Chapter7\v2
+ * Class SchoolGirl.
  */
 class SchoolGirl
 {
     /**
-     * @var  string name
+     * @var string name
      */
     private $name;
 
