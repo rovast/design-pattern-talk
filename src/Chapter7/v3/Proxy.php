@@ -3,14 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter7\v3;
 
 /**
- * Class Proxy
- *
- * @package \Rovast\DesignPatternTalk\Chapter7\v3
+ * Class Proxy.
  */
 class Proxy implements GiveGift
 {
     /**
-     * @var  \Rovast\DesignPatternTalk\Chapter7\v3\Pursuit pursuit
+     * @var \Rovast\DesignPatternTalk\Chapter7\v3\Pursuit pursuit
      */
     private $pursuit;
 

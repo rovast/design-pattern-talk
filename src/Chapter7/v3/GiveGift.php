@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter7\v3;
 
 /**
- * Class Proxy
- *
- * @package \Rovast\DesignPatternTalk\Chapter7\v3
+ * Class Proxy.
  */
 interface GiveGift
 {
