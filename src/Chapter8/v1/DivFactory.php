@@ -2,12 +2,8 @@
 
 namespace Rovast\DesignPatternTalk\Chapter8\v1;
 
-use Rovast\DesignPatternTalk\Chapter8\v1\OperationDiv;
-
 /**
- * Class DivFactory
- *
- * @package \Rovast\DesignPatternTalk\Chapter8\v1
+ * Class DivFactory.
  */
 class DivFactory implements Factory
 {
