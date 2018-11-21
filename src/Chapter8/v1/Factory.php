@@ -3,7 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter8\v1;
 
 /**
- * Interface Factory
+ * Interface Factory.
  */
 interface Factory
 {

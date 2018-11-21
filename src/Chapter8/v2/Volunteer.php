@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter8\v2;
 
 /**
- * Class Volunteer
- *
- * @package \Rovast\DesignPatternTalk\Chapter8\v2
+ * Class Volunteer.
  */
 class Volunteer extends Leifeng
 {
