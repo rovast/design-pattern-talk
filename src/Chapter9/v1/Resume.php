@@ -3,34 +3,32 @@
 namespace Rovast\DesignPatternTalk\Chapter9\v1;
 
 /**
- * Class Resume
- *
- * @package \Rovast\DesignPatternTalk\Chapter9\v1
+ * Class Resume.
  */
 class Resume
 {
     /**
-     * @var  string name
+     * @var string name
      */
     private $name;
 
     /**
-     * @var  integer age
+     * @var int age
      */
     private $age;
 
     /**
-     * @var  string sex
+     * @var string sex
      */
     private $sex;
 
     /**
-     * @var  string company
+     * @var string company
      */
     private $company;
 
     /**
-     * @var  string timeArea
+     * @var string timeArea
      */
     private $timeArea;
 
@@ -53,8 +51,8 @@ class Resume
 
     public function display()
     {
-        echo "姓名：{$this->name}" . PHP_EOL
-            . "年龄：{$this->age}" . PHP_EOL
-            . "工作经历：{$this->timeArea} {$this->company}" . PHP_EOL;
+        echo "姓名：{$this->name}".PHP_EOL
+            ."年龄：{$this->age}".PHP_EOL
+            ."工作经历：{$this->timeArea} {$this->company}".PHP_EOL;
     }
 }
