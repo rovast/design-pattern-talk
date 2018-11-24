@@ -1,11 +1,11 @@
 <?php
 
-namespace Rovast\DesignPatternTalk\Chapter9\v1;
+namespace Rovast\DesignPatternTalk\Chapter9\v2;
 
 /**
  * Class Resume
  *
- * @package \Rovast\DesignPatternTalk\Chapter9\v1
+ * @package \Rovast\DesignPatternTalk\Chapter9\v2
  */
 class Resume
 {
@@ -39,10 +39,10 @@ class Resume
         $this->name = $name;
     }
 
-    public function setPersonalInfo(string $sex, int $age)
+    public function setPersonalInfo(string $name, int $age)
     {
-        $this->age = $age;
-        $this->sex = $sex;
+        $this->age  = $age;
+        $this->name = $name;
     }
 
     public function setWorkExperience(string $timeArea, string $company)
@@ -56,5 +56,10 @@ class Resume
         echo "姓名：{$this->name}" . PHP_EOL
             . "年龄：{$this->age}" . PHP_EOL
             . "工作经历：{$this->timeArea} {$this->company}" . PHP_EOL;
+    }
+
+    public function clone()
+    {
+        return clone $this;
     }
 }
