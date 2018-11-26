@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter10\v3;
 
 /**
- * Class TestPaperA
- *
- * @package \Rovast\DesignPatternTalk\Chapter10\v3
+ * Class TestPaperA.
  */
 class TestPaperA extends TestPaper
 {
