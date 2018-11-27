@@ -11,17 +11,17 @@
 
 ## 章节
 
-- [x] Chapter1 代码无错就是优？ --- 简单工厂模式
-- [x] Chapter2 商场促销 --- 策略模式
-- [x] Chapter3 拍摄 UFO --- 单一职责原则
-- [x] Chapter4 考研求职两不误 --- 开放-封闭原则
-- [x] Chapter5 会修电脑不会修收音机？ --- 依赖倒转原则
-- [x] Chapter6 穿什么有那么重要？ --- 装饰器模式
-- [x] Chapter7 为别人做嫁衣 --- 代理模式
-- [x] Chapter8 雷锋依然在人间 --- 工厂方法模式
-- [x] Chapter9 简历复印 --- 原型模式
-- [x] Chapter10 考题抄错会做也白搭 --- 模板方法模式
-- [ ] Chapter11 无熟人难办事？ --- 迪米特法则
+- [x] [Chapter1 代码无错就是优？ --- 简单工厂模式](./src/Chapter1/README.md)
+- [x] [Chapter2 商场促销 --- 策略模式](./src/Chapter2/README.md)
+- [x] [Chapter3 拍摄 UFO --- 单一职责原则](./src/Chapter3/README.md)
+- [x] [Chapter4 考研求职两不误 --- 开放-封闭原则](./src/Chapter4/README.md)
+- [x] [Chapter5 会修电脑不会修收音机？ --- 依赖倒转原则](./src/Chapter5/README.md)
+- [x] [Chapter6 穿什么有那么重要？ --- 装饰器模式](./src/Chapter6/README.md)
+- [x] [Chapter7 为别人做嫁衣 --- 代理模式](./src/Chapter7/README.md)
+- [x] [Chapter8 雷锋依然在人间 --- 工厂方法模式](./src/Chapter8/README.md)
+- [x] [Chapter9 简历复印 --- 原型模式](./src/Chapter9/README.md)
+- [x] [Chapter10 考题抄错会做也白搭 --- 模板方法模式](./src/Chapter10/README.md)
+- [x] [Chapter11 无熟人难办事？ --- 迪米特法则](./src/Chapter11/README.md)
 - [ ] Chapter12 牛市股票还会亏钱？ --- 外观模式
 - [ ] Chapter13 好菜没回味不同 --- 建造者模式
 - [ ] Chapter14 老板回来我不知道 --- 观察者模式
