@@ -3,16 +3,18 @@
 namespace Rovast\DesignPatternTalk\Chapter12\v2;
 
 /**
- * Class Fund
- *
- * @package \Rovast\DesignPatternTalk\Chapter12\v2
+ * Class Fund.
  */
 class Fund
 {
     private $stock1;
+
     private $stock2;
+
     private $stock3;
+
     private $na1;
+
     private $rt1;
 
     public function __construct()
@@ -20,8 +22,8 @@ class Fund
         $this->stock1 = new Stock1();
         $this->stock2 = new Stock2();
         $this->stock3 = new Stock3();
-        $this->na1 = new NationDebt1();
-        $this->rt1 = new Realty1();
+        $this->na1    = new NationDebt1();
+        $this->rt1    = new Realty1();
     }
 
     public function buy()
