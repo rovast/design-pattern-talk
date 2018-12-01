@@ -7,4 +7,4 @@ $pen = new Rovast\DesignPatternTalk\Chapter13\v1\Pen();
 $pen->draw('head');
 $pen->draw('hands');
 $pen->draw('legs');
-$pen->draw('foots');
+$pen->draw('feet');

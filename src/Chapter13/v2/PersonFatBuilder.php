@@ -23,6 +23,6 @@ class PersonFatBuilder
         $this->pen->draw('head');
         $this->pen->draw('hands');
         $this->pen->draw('legs');
-        $this->pen->draw('foots');
+        $this->pen->draw('feet');
     }
 }
