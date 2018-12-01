@@ -12,7 +12,10 @@ abstract class PersonBuilder
     }
 
     abstract public function buildHead();
+
     abstract public function buildHands();
+
     abstract public function buildLegs();
+
     abstract public function buildFeet();
 }
