@@ -3,7 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter13\v2;
 
 /**
- * 小人构造器，用来生成一个胖小人
+ * 小人构造器，用来生成一个胖小人.
  */
 class PersonFatBuilder
 {
@@ -15,11 +15,11 @@ class PersonFatBuilder
     }
 
     /**
-     * 建造一个小人
+     * 建造一个小人.
      */
     public function build()
     {
-        echo '画一个胖人' . PHP_EOL;
+        echo '画一个胖人'.PHP_EOL;
         $this->pen->draw('head');
         $this->pen->draw('hands');
         $this->pen->draw('legs');

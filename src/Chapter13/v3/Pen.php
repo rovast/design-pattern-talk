@@ -6,6 +6,6 @@ class Pen
 {
     public function draw(string $element)
     {
-        echo "draw {$element}" . PHP_EOL;
+        echo "draw {$element}".PHP_EOL;
     }
 }

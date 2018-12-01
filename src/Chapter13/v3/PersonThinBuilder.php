@@ -3,7 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter13\v3;
 
 /**
- * 小人构造器，用来生成一个瘦小小人
+ * 小人构造器，用来生成一个瘦小小人.
  */
 class PersonThinBuilder extends PersonBuilder
 {
