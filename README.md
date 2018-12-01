@@ -23,7 +23,7 @@
 - [x] [Chapter10 考题抄错会做也白搭 --- 模板方法模式](./src/Chapter10/README.md)
 - [x] [Chapter11 无熟人难办事？ --- 迪米特法则](./src/Chapter11/README.md)
 - [x] [Chapter12 牛市股票还会亏钱？ --- 外观模式](./src/Chapter12/README.md)
-- [ ] Chapter13 好菜没回味不同 --- 建造者模式
+- [x] [Chapter13 好菜没回味不同 --- 建造者模式](./src/Chapter13/README.md)
 - [ ] Chapter14 老板回来我不知道 --- 观察者模式
 - [ ] Chapter15 就不能不换DB吗？ --- 抽象工厂模式
 - [ ] Chapter16 无尽加班何时休 --- 状态模式
