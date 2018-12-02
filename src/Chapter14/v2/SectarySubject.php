@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter14\v2;
 
 /**
- * Class SectarySubject
- *
- * @package \Rovast\DesignPatternTalk\Chapter14\v2
+ * Class SectarySubject.
  */
 class SectarySubject extends Subject
 {
@@ -19,7 +17,7 @@ class SectarySubject extends Subject
     public function detach(Observer $observer)
     {
         $key = array_search($observer, $this->observers);
-        if ($key !== false) {
+        if (false !== $key) {
             unset($this->observers[$key]);
         }
     }
@@ -27,7 +25,7 @@ class SectarySubject extends Subject
     public function notify()
     {
         /**
-         * @var \Rovast\DesignPatternTalk\Chapter14\v2\Observer $observer
+         * @var \Rovast\DesignPatternTalk\Chapter14\v2\Observer
          */
         foreach ($this->observers as $observer) {
             $observer->update();

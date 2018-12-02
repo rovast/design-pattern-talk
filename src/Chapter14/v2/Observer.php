@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter14\v2;
 
 /**
- * Abstract Class Observer
- *
- * @package \Rovast\DesignPatternTalk\Chapter14\v2
+ * Abstract Class Observer.
  */
 abstract class Observer
 {
@@ -17,8 +15,10 @@ abstract class Observer
     }
 
     /**
-     * 进行相关动作
+     * 进行相关动作.
+     *
      * @return mixed
+     *
      * @author ROVAST
      */
     abstract public function update();
