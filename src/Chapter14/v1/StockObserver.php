@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter14\v1;
 
 /**
- * Class Observer
- *
- * @package \Rovast\DesignPatternTalk\Chapter14\v1
+ * Class Observer.
  */
 class StockObserver
 {
@@ -18,6 +16,6 @@ class StockObserver
 
     public function update()
     {
-        echo "{$this->name} 关闭股票软件，去干活了" . PHP_EOL;
+        echo "{$this->name} 关闭股票软件，去干活了".PHP_EOL;
     }
 }
