@@ -2,7 +2,7 @@
 
 require_once __DIR__.'/../../../vendor/autoload.php';
 
-$user = new \Rovast\DesignPatternTalk\Chapter15\v5\User();
+$user       = new \Rovast\DesignPatternTalk\Chapter15\v5\User();
 $department = new \Rovast\DesignPatternTalk\Chapter15\v5\Department();
 
 // 获取到操作数据的工厂，工厂类型由 DataAccess 的 dbDriver 决定

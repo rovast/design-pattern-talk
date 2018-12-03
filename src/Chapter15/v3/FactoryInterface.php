@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter15\v3;
 
 /**
- * interface FactoryInterface
- *
- * @package \Rovast\DesignPatternTalk\Chapter15\v3
+ * interface FactoryInterface.
  */
 interface FactoryInterface
 {
