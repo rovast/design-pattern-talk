@@ -19,5 +19,5 @@ $userFactory->getUser(10);
 
 // 进行 department 相关的操作
 $departmentFactory = $factory->createDepartment();
-$departmentDB->insertDepartment($department);
-$departmentDB->getDepartment(10);
+$departmentFactory->insertDepartment($department);
+$departmentFactory->getDepartment(10);
