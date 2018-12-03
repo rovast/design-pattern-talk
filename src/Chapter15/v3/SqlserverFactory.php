@@ -11,13 +11,13 @@ class SqlserverFactory implements FactoryInterface
 {
     public function createUser()
     {
-        echo '使用 Sql Server 创建一个用户' . PHP_EOL;
+        echo '创建一个 sqlserver user 工厂' . PHP_EOL;
         return new SqlserverUser();
     }
 
     public function createDepartment()
     {
-        echo '使用 Sql Server 创建一个部门' . PHP_EOL;
-        return new SqlServerDepartment();
+        echo '创建一个 sqlserver department 工厂' . PHP_EOL;
+        return new SqlserverDepartment();
     }
 }

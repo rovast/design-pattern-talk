@@ -3,11 +3,11 @@
 namespace Rovast\DesignPatternTalk\Chapter15\v3;
 
 /**
- * Class SqlServerDepartment
+ * Class SqlserverDepartment
  *
  * @package \Rovast\DesignPatternTalk\Chapter15\v3
  */
-class SqlServerDepartment implements DepartmentInterface
+class SqlserverDepartment implements DepartmentInterface
 {
     public function insertDepartment(Department $department)
     {

@@ -11,5 +11,5 @@ interface UserInterface
 {
     public function insertUser(User $user);
 
-    public function getUser(int $userId);
+    public function getUser($userId);
 }

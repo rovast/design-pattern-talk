@@ -11,5 +11,5 @@ interface DepartmentInterface
 {
     public function insertDepartment(Department $department);
 
-    public function getDepartment(int $departmentId);
+    public function getDepartment($departmentId);
 }
