@@ -25,7 +25,7 @@
 - [x] [Chapter12 牛市股票还会亏钱？ --- 外观模式](./src/Chapter12/README.md)
 - [x] [Chapter13 好菜没回味不同 --- 建造者模式](./src/Chapter13/README.md)
 - [x] [Chapter14 老板回来我不知道 --- 观察者模式](./src/Chapter14/README.md)
-- [ ] Chapter15 就不能不换DB吗？ --- 抽象工厂模式
+- [x] [Chapter15 就不能不换DB吗？ --- 抽象工厂模式](./src/Chapter15/README.md)
 - [ ] Chapter16 无尽加班何时休 --- 状态模式
 - [ ] Chapter17 在 NBA 我需要翻译 --- 适配器模式
 - [ ] Chapter18 如果再回到从前 --- 备忘录模式
