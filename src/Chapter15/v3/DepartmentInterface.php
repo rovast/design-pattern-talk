@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter15\v3;
 
 /**
- * interface DepartmentInterface
- *
- * @package \Rovast\DesignPatternTalk\Chapter15\v3
+ * interface DepartmentInterface.
  */
 interface DepartmentInterface
 {

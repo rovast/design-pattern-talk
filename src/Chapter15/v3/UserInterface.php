@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter15\v3;
 
 /**
- * interface UserInterface
- *
- * @package \Rovast\DesignPatternTalk\Chapter15\v3
+ * interface UserInterface.
  */
 interface UserInterface
 {

@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter15\v2;
 
 /**
- * Class AccessFactory
- *
- * @package \Rovast\DesignPatternTalk\Chapter15\v2
+ * Class AccessFactory.
  */
 class AccessFactory implements UserFactory
 {

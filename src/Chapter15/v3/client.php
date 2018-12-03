@@ -2,7 +2,7 @@
 
 require_once __DIR__.'/../../../vendor/autoload.php';
 
-$user = new \Rovast\DesignPatternTalk\Chapter15\v3\User();
+$user       = new \Rovast\DesignPatternTalk\Chapter15\v3\User();
 $department = new \Rovast\DesignPatternTalk\Chapter15\v3\Department();
 
 // sqlserver 驱动
@@ -10,7 +10,6 @@ $factory = new \Rovast\DesignPatternTalk\Chapter15\v3\SqlserverFactory();
 
 // access 驱动
 // $factory = new \Rovast\DesignPatternTalk\Chapter15\v3\AccessFactory();
-
 
 // 进行 user 相关的操作
 $userFactory = $factory->createUser();
