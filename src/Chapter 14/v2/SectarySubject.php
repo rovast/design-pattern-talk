@@ -24,7 +24,7 @@ class SectarySubject extends Subject
 
     public function notify()
     {
-        /**
+        /*
          * @var \Rovast\DesignPatternTalk\Chapter14\v2\Observer
          */
         foreach ($this->observers as $observer) {
