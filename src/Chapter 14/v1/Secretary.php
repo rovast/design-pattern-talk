@@ -23,7 +23,7 @@ class Secretary
     {
         echo '老板回来了！'.PHP_EOL;
 
-        /**
+        /*
          * @var \Rovast\DesignPatternTalk\Chapter14\v1\StockObserver
          */
         foreach ($this->observers as $observer) {

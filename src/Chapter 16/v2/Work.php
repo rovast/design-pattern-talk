@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter16\v2;
 
 /**
- * Class Work
- *
- * @package \Rovast\DesignPatternTalk\Chapter16\v2
+ * Class Work.
  */
 class Work
 {
@@ -16,7 +14,7 @@ class Work
     protected $finished;
 
     /**
-     * @var  \Rovast\DesignPatternTalk\Chapter16\v2\State state
+     * @var \Rovast\DesignPatternTalk\Chapter16\v2\State state
      */
     protected $state;
 
