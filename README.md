@@ -11,22 +11,22 @@
 
 ## 章节
 
-- [x] [Chapter 1 代码无错就是优？ --- 简单工厂模式](./src/Chapter 1/README.md)
-- [x] [Chapter 2 商场促销 --- 策略模式](./src/Chapter 2/README.md)
-- [x] [Chapter 3 拍摄 UFO --- 单一职责原则](./src/Chapter 3/README.md)
-- [x] [Chapter 4 考研求职两不误 --- 开放-封闭原则](./src/Chapter 4/README.md)
-- [x] [Chapter 5 会修电脑不会修收音机？ --- 依赖倒转原则](./src/Chapter 5/README.md)
-- [x] [Chapter 6 穿什么有那么重要？ --- 装饰器模式](./src/Chapter 6/README.md)
-- [x] [Chapter 7 为别人做嫁衣 --- 代理模式](./src/Chapter 7/README.md)
-- [x] [Chapter 8 雷锋依然在人间 --- 工厂方法模式](./src/Chapter 8/README.md)
-- [x] [Chapter 9 简历复印 --- 原型模式](./src/Chapter 9/README.md)
-- [x] [Chapter 10 考题抄错会做也白搭 --- 模板方法模式](./src/Chapter 10/README.md)
-- [x] [Chapter 11 无熟人难办事？ --- 迪米特法则](./src/Chapter 11/README.md)
-- [x] [Chapter 12 牛市股票还会亏钱？ --- 外观模式](./src/Chapter 12/README.md)
-- [x] [Chapter 13 好菜没回味不同 --- 建造者模式](./src/Chapter 13/README.md)
-- [x] [Chapter 14 老板回来我不知道 --- 观察者模式](./src/Chapter 14/README.md)
-- [x] [Chapter 15 就不能不换DB吗？ --- 抽象工厂模式](./src/Chapter 15/README.md)
-- [x] [Chapter 16 无尽加班何时休 --- 状态模式](./src/Chapter 16/README.md)
+- [x] [Chapter 1 代码无错就是优？ --- 简单工厂模式](./src/Chapter%201/README.md)
+- [x] [Chapter 2 商场促销 --- 策略模式](./src/Chapter%202/README.md)
+- [x] [Chapter 3 拍摄 UFO --- 单一职责原则](./src/Chapter%203/README.md)
+- [x] [Chapter 4 考研求职两不误 --- 开放-封闭原则](./src/Chapter%204/README.md)
+- [x] [Chapter 5 会修电脑不会修收音机？ --- 依赖倒转原则](./src/Chapter%205/README.md)
+- [x] [Chapter 6 穿什么有那么重要？ --- 装饰器模式](./src/Chapter%206/README.md)
+- [x] [Chapter 7 为别人做嫁衣 --- 代理模式](./src/Chapter%207/README.md)
+- [x] [Chapter 8 雷锋依然在人间 --- 工厂方法模式](./src/Chapter%208/README.md)
+- [x] [Chapter 9 简历复印 --- 原型模式](./src/Chapter%209/README.md)
+- [x] [Chapter 10 考题抄错会做也白搭 --- 模板方法模式](./src/Chapter%2010/README.md)
+- [x] [Chapter 11 无熟人难办事？ --- 迪米特法则](./src/Chapter%2011/README.md)
+- [x] [Chapter 12 牛市股票还会亏钱？ --- 外观模式](./src/Chapter%2012/README.md)
+- [x] [Chapter 13 好菜没回味不同 --- 建造者模式](./src/Chapter%2013/README.md)
+- [x] [Chapter 14 老板回来我不知道 --- 观察者模式](./src/Chapter%2014/README.md)
+- [x] [Chapter 15 就不能不换DB吗？ --- 抽象工厂模式](./src/Chapter%2015/README.md)
+- [x] [Chapter 16 无尽加班何时休 --- 状态模式](./src/Chapter%2016/README.md)
 - [ ] Chapter 17 在 NBA 我需要翻译 --- 适配器模式
 - [ ] Chapter 18 如果再回到从前 --- 备忘录模式
 - [ ] Chapter 19 分公司=-部门 --- 组合模式
