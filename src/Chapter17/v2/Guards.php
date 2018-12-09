@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter17\v2;
 
 /**
- * Class Guards
- *
- * @package \Rovast\DesignPatternTalk\Chapter17\v2
+ * Class Guards.
  */
 class Guards extends Player
 {
@@ -18,11 +16,11 @@ class Guards extends Player
 
     public function attack()
     {
-        echo "{$this->name} 发起进攻" . PHP_EOL;
+        echo "{$this->name} 发起进攻".PHP_EOL;
     }
 
     public function defense()
     {
-        echo "{$this->name} 进行防守" . PHP_EOL;
+        echo "{$this->name} 进行防守".PHP_EOL;
     }
 }

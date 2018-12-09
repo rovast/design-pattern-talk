@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter17\v2;
 
 /**
- * Abstract Class Player
- *
- * @package \Rovast\DesignPatternTalk\Chapter17\v2
+ * Abstract Class Player.
  */
 abstract class Player
 {
