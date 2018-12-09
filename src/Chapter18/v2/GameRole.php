@@ -3,16 +3,14 @@
 namespace Rovast\DesignPatternTalk\Chapter18\v2;
 
 /**
- * Class GameRole
- *
- * @package \Rovast\DesignPatternTalk\Chapter18\v2
+ * Class GameRole.
  */
 class GameRole
 {
     /**
      * 生命值
      *
-     * @var  life
+     * @var life
      */
     public $life;
 
@@ -29,7 +27,7 @@ class GameRole
     /**
      * 防御值
      *
-     * @var  defense
+     * @var defense
      */
     public $defense;
 
@@ -44,9 +42,9 @@ class GameRole
     }
 
     /**
-     * 攻击力
+     * 攻击力.
      *
-     * @var  attack
+     * @var attack
      */
     public $attack;
 
@@ -62,10 +60,10 @@ class GameRole
 
     public function displayState()
     {
-        echo "角色当前状态：\n" .
-            "生命值： {$this->life} \n" .
-            "攻击力： {$this->attack} \n" .
-            "防御值： {$this->defense}" . PHP_EOL;
+        echo "角色当前状态：\n".
+            "生命值： {$this->life} \n".
+            "攻击力： {$this->attack} \n".
+            "防御值： {$this->defense}".PHP_EOL;
     }
 
     public function getInitState()
@@ -83,9 +81,10 @@ class GameRole
     }
 
     /**
-     * 存档
+     * 存档.
      *
      * @return \Rovast\DesignPatternTalk\Chapter18\v2\RoleStateMemo
+     *
      * @author ROVAST
      */
     public function saveState()
@@ -94,9 +93,10 @@ class GameRole
     }
 
     /**
-     * 读档
+     * 读档.
      *
      * @param \Rovast\DesignPatternTalk\Chapter18\v2\RoleStateMemo $roleStateMemo
+     *
      * @author ROVAST
      */
     public function recoveryState(RoleStateMemo $roleStateMemo)

@@ -3,16 +3,14 @@
 namespace Rovast\DesignPatternTalk\Chapter18\v1;
 
 /**
- * Class GameRole
- *
- * @package \Rovast\DesignPatternTalk\Chapter18\v1
+ * Class GameRole.
  */
 class GameRole
 {
     /**
      * 生命值
      *
-     * @var  life
+     * @var life
      */
     public $life;
 
@@ -29,7 +27,7 @@ class GameRole
     /**
      * 防御值
      *
-     * @var  defense
+     * @var defense
      */
     public $defense;
 
@@ -44,9 +42,9 @@ class GameRole
     }
 
     /**
-     * 攻击力
+     * 攻击力.
      *
-     * @var  attack
+     * @var attack
      */
     public $attack;
 
@@ -62,23 +60,23 @@ class GameRole
 
     public function displayState()
     {
-        echo "角色当前状态：\n" .
-            "生命值： {$this->life} \n" .
-            "攻击力： {$this->attack} \n" .
-            "防御值： {$this->defense}" . PHP_EOL;
+        echo "角色当前状态：\n".
+            "生命值： {$this->life} \n".
+            "攻击力： {$this->attack} \n".
+            "防御值： {$this->defense}".PHP_EOL;
     }
 
     public function getInitState()
     {
-        $this->life = 100;
-        $this->attack = 100;
+        $this->life    = 100;
+        $this->attack  = 100;
         $this->defense = 100;
     }
 
     public function fight()
     {
-        $this->life = 0;
-        $this->attack = 0;
+        $this->life    = 0;
+        $this->attack  = 0;
         $this->defense = 0;
     }
 }
