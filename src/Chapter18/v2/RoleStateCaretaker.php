@@ -3,14 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter18\v2;
 
 /**
- * Class RoleStateCaretaker
- *
- * @package \Rovast\DesignPatternTalk\Chapter18\v2
+ * Class RoleStateCaretaker.
  */
 class RoleStateCaretaker
 {
     /**
-     * @var \Rovast\DesignPatternTalk\Chapter18\v2\RoleStateMemo  roleStateMemo
+     * @var \Rovast\DesignPatternTalk\Chapter18\v2\RoleStateMemo roleStateMemo
      */
     public $roleStateMemo;
 
