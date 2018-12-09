@@ -3,16 +3,14 @@
 namespace Rovast\DesignPatternTalk\Chapter17\v2;
 
 /**
- * Class Translator
- *
- * @package \Rovast\DesignPatternTalk\Chapter17\v2
+ * Class Translator.
  */
 class Translator extends Player
 {
     protected $name;
 
     /**
-     * @var  \Rovast\DesignPatternTalk\Chapter17\v2\ForeignCenter foreignCenter
+     * @var \Rovast\DesignPatternTalk\Chapter17\v2\ForeignCenter foreignCenter
      */
     protected $foreignCenter;
 

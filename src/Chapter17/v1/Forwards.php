@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter17\v1;
 
 /**
- * Class Forwards
- *
- * @package \Rovast\DesignPatternTalk\Chapter17\v1
+ * Class Forwards.
  */
 class Forwards extends Player
 {
@@ -18,11 +16,11 @@ class Forwards extends Player
 
     public function attack()
     {
-        echo "{$this->name} 发起进攻" . PHP_EOL;
+        echo "{$this->name} 发起进攻".PHP_EOL;
     }
 
     public function defense()
     {
-        echo "{$this->name} 进行防守" . PHP_EOL;
+        echo "{$this->name} 进行防守".PHP_EOL;
     }
 }
