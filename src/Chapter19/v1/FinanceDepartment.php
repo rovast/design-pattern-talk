@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter19\v1;
 
 /**
- * Class FinanceDepartment
- *
- * @package \Rovast\DesignPatternTalk\Chapter19\v1
+ * Class FinanceDepartment.
  */
 class FinanceDepartment extends Company
 {
@@ -19,6 +17,6 @@ class FinanceDepartment extends Company
 
     public function duty()
     {
-        echo '公司财务报销等' . PHP_EOL;
+        echo '公司财务报销等'.PHP_EOL;
     }
 }

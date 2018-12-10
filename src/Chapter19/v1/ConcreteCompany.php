@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter19\v1;
 
 /**
- * Class ConcreteCompany
- *
- * @package \Rovast\DesignPatternTalk\Chapter19\v1
+ * Class ConcreteCompany.
  */
 class ConcreteCompany extends Company
 {
@@ -22,10 +20,10 @@ class ConcreteCompany extends Company
     public function duty()
     {
         /**
-         * @var \Rovast\DesignPatternTalk\Chapter19\v1\Company $company
+         * @var \Rovast\DesignPatternTalk\Chapter19\v1\Company
          */
         foreach ($this->children as $company) {
-            echo $company->duty() . PHP_EOL;
+            echo $company->duty().PHP_EOL;
         }
     }
 }
