@@ -29,7 +29,7 @@
 - [x] [Chapter16 无尽加班何时休 --- 状态模式](./src/Chapter16/README.md)
 - [x] [Chapter17 在 NBA 我需要翻译 --- 适配器模式](./src/Chapter17/README.md)
 - [x] [Chapter18 如果再回到从前 --- 备忘录模式](./src/Chapter18/README.md)
-- [ ] Chapter19 分公司=-部门 --- 组合模式
+- [ ] Chapter19 分公司=一部门 --- 组合模式
 - [ ] Chapter20 想走？可以！先买票 --- 迭代器模式
 - [ ] Chapter21 有些类也需要计划生育 --- 单例模式
 - [ ] Chapter22 手机软件何时统一 --- 桥接模式
