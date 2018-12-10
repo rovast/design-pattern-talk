@@ -18,11 +18,11 @@ $shenzhen->add(new \Rovast\DesignPatternTalk\Chapter19\v1\HRDepartment('深圳�
 $shenzhen->add(new \Rovast\DesignPatternTalk\Chapter19\v1\FinanceDepartment('深圳财务分部'));
 $HQ->add($shenzhen);
 
-echo '--- 总部---' . PHP_EOL;
+echo '--- 总部---'.PHP_EOL;
 $HQ->display();
 
-echo '--- 上海分部---' . PHP_EOL;
+echo '--- 上海分部---'.PHP_EOL;
 $shanghai->display();
 
-echo '--- 深圳分部---' . PHP_EOL;
+echo '--- 深圳分部---'.PHP_EOL;
 $shenzhen->display();

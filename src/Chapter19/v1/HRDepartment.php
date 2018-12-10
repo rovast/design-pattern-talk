@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter19\v1;
 
 /**
- * Class HRDepartment
- *
- * @package \Rovast\DesignPatternTalk\Chapter19\v1
+ * Class HRDepartment.
  */
 class HRDepartment extends Company
 {
@@ -19,6 +17,6 @@ class HRDepartment extends Company
 
     public function duty()
     {
-        echo '员工招聘，培训' . PHP_EOL;
+        echo '员工招聘，培训'.PHP_EOL;
     }
 }
