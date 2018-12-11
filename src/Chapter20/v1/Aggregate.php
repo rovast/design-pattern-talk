@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter20\v1;
 
 /**
- * abstract Class Aggregate
- *
- * @package \Rovast\DesignPatternTalk\Chapter20\v1
+ * abstract Class Aggregate.
  */
 abstract class Aggregate
 {

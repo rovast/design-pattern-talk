@@ -3,14 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter20\v1;
 
 /**
- * Class ConcreteIterator
- *
- * @package \Rovast\DesignPatternTalk\Chapter20\v1
+ * Class ConcreteIterator.
  */
 class ConcreteIterator extends Iterator
 {
     /**
-     * @var  array items
+     * @var array items
      */
     protected $items;
 
@@ -29,7 +27,7 @@ class ConcreteIterator extends Iterator
     public function next()
     {
         if (!$this->isDone()) {
-            $this->position++;
+            ++$this->position;
         }
 
         return $this->currentItem();
@@ -37,11 +35,12 @@ class ConcreteIterator extends Iterator
 
     /**
      * @return bool
+     *
      * @author ROVAST
      */
     public function isDone()
     {
-        return $this->position > sizeof($this->items);
+        return $this->position > count($this->items);
     }
 
     public function currentItem()
