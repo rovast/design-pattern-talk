@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter20\v1;
 
 /**
- * abstract Class Iterator
- *
- * @package \Rovast\DesignPatternTalk\Chapter20\v1
+ * abstract Class Iterator.
  */
 abstract class Iterator
 {
