@@ -30,7 +30,7 @@
 - [x] [Chapter17 在 NBA 我需要翻译 --- 适配器模式](./src/Chapter17/README.md)
 - [x] [Chapter18 如果再回到从前 --- 备忘录模式](./src/Chapter18/README.md)
 - [x] [Chapter19 分公司=一部门 --- 组合模式](./src/Chapter19/README.md)
-- [ ] Chapter20 想走？可以！先买票 --- 迭代器模式
+- [x] [Chapter20 想走？可以！先买票 --- 迭代器模式](./src/Chapter20/README.md)
 - [ ] Chapter21 有些类也需要计划生育 --- 单例模式
 - [ ] Chapter22 手机软件何时统一 --- 桥接模式
 - [ ] Chapter23 烤羊肉串引来的思考 --- 命令模式
