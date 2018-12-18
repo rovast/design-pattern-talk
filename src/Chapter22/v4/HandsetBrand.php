@@ -3,14 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter22\v4;
 
 /**
- * Class HandsetBrand
- *
- * @package \Rovast\DesignPatternTalk\Chapter22\v4
+ * Class HandsetBrand.
  */
 abstract class HandsetBrand
 {
     /**
-     * @var  \Rovast\DesignPatternTalk\Chapter22\v4\HandsetSoft soft
+     * @var \Rovast\DesignPatternTalk\Chapter22\v4\HandsetSoft soft
      */
     protected $soft;
 

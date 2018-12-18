@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter22\v4;
 
 /**
- * Class HandbrandM
- *
- * @package \Rovast\DesignPatternTalk\Chapter22\v4
+ * Class HandbrandM.
  */
 class HandbrandM extends HandsetBrand
 {

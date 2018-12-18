@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter22\v4;
 
 /**
- * Class HandsetSoft
- *
- * @package \Rovast\DesignPatternTalk\Chapter22\v4
+ * Class HandsetSoft.
  */
 abstract class HandsetSoft
 {
