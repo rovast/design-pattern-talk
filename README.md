@@ -32,7 +32,7 @@
 - [x] [Chapter19 分公司=一部门 --- 组合模式](./src/Chapter19/README.md)
 - [x] [Chapter20 想走？可以！先买票 --- 迭代器模式](./src/Chapter20/README.md)
 - [x] [Chapter21 有些类也需要计划生育 --- 单例模式](./src/Chapter21/README.md)
-- [ ] Chapter22 手机软件何时统一 --- 桥接模式
+- [x] [Chapter22 手机软件何时统一 --- 桥接模式](./src/Chapter22/README.md)
 - [ ] Chapter23 烤羊肉串引来的思考 --- 命令模式
 - [ ] Chapter24 加薪非要老总批？ --- 职责链模式
 - [ ] Chapter25 世界需要和平 --- 中介者模式
