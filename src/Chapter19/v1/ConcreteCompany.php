@@ -19,7 +19,7 @@ class ConcreteCompany extends Company
 
     public function duty()
     {
-        /**
+        /*
          * @var \Rovast\DesignPatternTalk\Chapter19\v1\Company
          */
         foreach ($this->children as $company) {
