@@ -3,14 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter23\v3;
 
 /**
- * Class Command
- *
- * @package \Rovast\DesignPatternTalk\Chapter23\v3
+ * Class Command.
  */
 abstract class Command
 {
     /**
-     * @var  \Rovast\DesignPatternTalk\Chapter23\v3\Barbecuer babercuer
+     * @var \Rovast\DesignPatternTalk\Chapter23\v3\Barbecuer babercuer
      */
     protected $babercuer;
 

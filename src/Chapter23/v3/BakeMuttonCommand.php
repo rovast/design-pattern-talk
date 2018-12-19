@@ -3,9 +3,7 @@
 namespace Rovast\DesignPatternTalk\Chapter23\v3;
 
 /**
- * Class BakeMuttonCommand
- *
- * @package \Rovast\DesignPatternTalk\Chapter23\v3
+ * Class BakeMuttonCommand.
  */
 class BakeMuttonCommand extends Command
 {

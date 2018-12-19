@@ -3,14 +3,12 @@
 namespace Rovast\DesignPatternTalk\Chapter23\v3;
 
 /**
- * Class Waiter
- *
- * @package \Rovast\DesignPatternTalk\Chapter23\v3
+ * Class Waiter.
  */
 class Waiter
 {
     /**
-     * @var  array command
+     * @var array command
      */
     private $commands = [];
 
