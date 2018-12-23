@@ -2,8 +2,8 @@
 
 require_once __DIR__.'/../../../vendor/autoload.php';
 
-$jinli = new \Rovast\DesignPatternTalk\Chapter24\v1\Manager('经理');
-$zongjian = new \Rovast\DesignPatternTalk\Chapter24\v1\Manager('总监');
+$jinli     = new \Rovast\DesignPatternTalk\Chapter24\v1\Manager('经理');
+$zongjian  = new \Rovast\DesignPatternTalk\Chapter24\v1\Manager('总监');
 $zongjinli = new \Rovast\DesignPatternTalk\Chapter24\v1\Manager('总经理');
 
 $request = new \Rovast\DesignPatternTalk\Chapter24\v1\Request();
