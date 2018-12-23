@@ -2,8 +2,8 @@
 
 require_once __DIR__.'/../../../vendor/autoload.php';
 
-$jinli = new \Rovast\DesignPatternTalk\Chapter24\v2\CommonManager('经理');
-$zongjian = new \Rovast\DesignPatternTalk\Chapter24\v2\Majordomo('总监');
+$jinli     = new \Rovast\DesignPatternTalk\Chapter24\v2\CommonManager('经理');
+$zongjian  = new \Rovast\DesignPatternTalk\Chapter24\v2\Majordomo('总监');
 $zongjinli = new \Rovast\DesignPatternTalk\Chapter24\v2\GeneralManager('总经理');
 
 $jinli->setSupervisor($zongjian);
