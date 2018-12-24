@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: rovast
  * Date: 2018-12-24
- * Time: 21:54
+ * Time: 21:54.
  */
 
 namespace Rovast\DesignPatternTalk\Chapter25\v1;
@@ -25,11 +25,13 @@ class ConcreteMediator extends Mediator
 
     /**
      * @param ConcreteColleague1 $concreteColleague1
+     *
      * @return ConcreteMediator
      */
-    public function setConcreteColleague1(ConcreteColleague1 $concreteColleague1): ConcreteMediator
+    public function setConcreteColleague1(ConcreteColleague1 $concreteColleague1): self
     {
         $this->concreteColleague1 = $concreteColleague1;
+
         return $this;
     }
 
@@ -48,11 +50,13 @@ class ConcreteMediator extends Mediator
 
     /**
      * @param ConcreteColleague2 $concreteColleague2
+     *
      * @return ConcreteMediator
      */
-    public function setConcreteColleague2(ConcreteColleague2 $concreteColleague2): ConcreteMediator
+    public function setConcreteColleague2(ConcreteColleague2 $concreteColleague2): self
     {
         $this->concreteColleague2 = $concreteColleague2;
+
         return $this;
     }
 
