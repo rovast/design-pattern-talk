@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: rovast
  * Date: 2018-12-24
- * Time: 22:22
+ * Time: 22:22.
  */
 
 namespace Rovast\DesignPatternTalk\Chapter25\v2;
@@ -25,11 +25,13 @@ class UnitedNationsSecurityCouncil extends UnitedNations
 
     /**
      * @param USA $colleague1
+     *
      * @return UnitedNationsSecurityCouncil
      */
-    public function setColleague1(USA $colleague1): UnitedNationsSecurityCouncil
+    public function setColleague1(USA $colleague1): self
     {
         $this->colleague1 = $colleague1;
+
         return $this;
     }
 
@@ -48,11 +50,13 @@ class UnitedNationsSecurityCouncil extends UnitedNations
 
     /**
      * @param Iraq $colleague2
+     *
      * @return UnitedNationsSecurityCouncil
      */
-    public function setColleague2(Iraq $colleague2): UnitedNationsSecurityCouncil
+    public function setColleague2(Iraq $colleague2): self
     {
         $this->colleague2 = $colleague2;
+
         return $this;
     }
 

@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: rovast
  * Date: 2018-12-24
- * Time: 21:52
+ * Time: 21:52.
  */
 
 namespace Rovast\DesignPatternTalk\Chapter25\v1;
