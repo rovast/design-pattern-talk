@@ -38,5 +38,5 @@
 - [x] [Chapter25 世界需要和平 --- 中介者模式](./src/Chapter25/README.md)
 - [x] [Chapter26 项目再多也别傻做 --- 享元模式](./src/Chapter26/README.md)
 - [x] [Chapter27 其实你不懂老板的心 --- 解析器模式](./src/Chapter27/README.md)
-- [ ] Chapter28 男人和女人 --- 访问者模式
+- [x] [Chapter28 男人和女人 --- 访问者模式](./src/Chapter28/README.md)
 
